@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA_2023_Grupi_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/Kerkimet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/UshtrimeMeArrayList.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Kerkimet">
+      <change afterPath="$PROJECT_DIR$/src/recursion/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/CallatzSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/PrintingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Kerkimet">
-    <configuration name="Kerkimet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.Kerkimet" />
+}]]></component>
+  <component name="RunManager" selected="Application.PrintingNumbers">
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Binary" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +61,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UshtrimeMeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.UshtrimeMeArrayList" />
+    <configuration name="CallatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.CallatzSequence" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Factorial" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.GFG" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.PrintingNumbers" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kerkimet" />
-        <item itemvalue="Application.UshtrimeMeArrayList" />
+        <item itemvalue="Application.PrintingNumbers" />
+        <item itemvalue="Application.CallatzSequence" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Binary" />
       </list>
     </recent_temporary>
   </component>
@@ -87,11 +133,26 @@
       <updated>1677867833095</updated>
       <workItem from="1677867834273" duration="3943000" />
       <workItem from="1678120957551" duration="9000" />
+      <workItem from="1678222586412" duration="69000" />
+      <workItem from="1678291523467" duration="16000" />
+      <workItem from="1678298786799" duration="3962000" />
     </task>
+    <task id="LOCAL-00001" summary="Kerkimet">
+      <created>1678222636651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678222636651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Kerkimet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerkimet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -105,6 +166,21 @@
           <url>file://$PROJECT_DIR$/src/searching/Kerkimet.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Binary.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Factorial.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Factorial.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
