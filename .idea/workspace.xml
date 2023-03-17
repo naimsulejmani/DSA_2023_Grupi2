@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Recursion dhe ushtrime">
-      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="bubble and selection sort">
+      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.SelectionSort">
+}]]></component>
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.BinaryRecursion" />
       <module name="DSA_2023_Grupi_2" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.PrintingNumbers" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elementary_sorts.InsertionSort" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="elementary_sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Detyra1Test" />
         <item itemvalue="Application.BinaryRecursion" />
-        <item itemvalue="Application.PrintingNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,8 @@
       <workItem from="1678298786799" duration="4034000" />
       <workItem from="1678472707141" duration="3758000" />
       <workItem from="1678725102900" duration="117000" />
-      <workItem from="1678903076335" duration="4619000" />
+      <workItem from="1678903076335" duration="4884000" />
+      <workItem from="1679077097266" duration="4045000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678477380645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bubble and selection sort">
+      <created>1678908680973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678908680973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +178,8 @@
     <MESSAGE value="Kerkimet" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion dhe ushtrime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion dhe ushtrime" />
+    <MESSAGE value="bubble and selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble and selection sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

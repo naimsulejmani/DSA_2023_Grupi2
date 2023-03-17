@@ -11,9 +11,10 @@ public class BubbleSort {
                 if (array[j] > array[j + 1]) {
                     // SWAP ELEMENT
                     hasAnySwap = true;
-                    int temp = array[j]; // ruaje array-j ne variablen e perkoheshme
-                    array[j] = array[j + 1]; // ne array-j vendose variablen vijuese
-                    array[j + 1] = temp; // ne varibalen vijuese vendose vaiablen e perkoheshme
+//                    int temp = array[j]; // ruaje array-j ne variablen e perkoheshme
+//                    array[j] = array[j + 1]; // ne array-j vendose variablen vijuese
+//                    array[j + 1] = temp; // ne varibalen vijuese vendose vaiablen e perkoheshme
+                    Helper.swap(array, j, j + 1);
                 }
             }
             if (!hasAnySwap) break;
