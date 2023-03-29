@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="bubble and selection sort">
-      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/InsertionSort.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="insertion sort">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adts/ProceduralAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adts/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adts/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
     "node.js.detected.package.eslint": "true",
@@ -46,39 +47,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BinaryRecursion" />
-      <module name="DSA_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TransactionTest">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="elementary_sorts.BubbleSort" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="elementary_sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Detyra1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.ushtrime.Detyra1Test" />
-      <module name="DSA_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.ushtrime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProceduralAbstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adts.ProceduralAbstraction" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="elementary_sorts.SelectionSort" />
       <module name="DSA_2023_Grupi_2" />
@@ -112,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adts.TransactionTest" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransactionTest" />
+        <item itemvalue="Application.ProceduralAbstraction" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Detyra1Test" />
-        <item itemvalue="Application.BinaryRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +139,8 @@
       <workItem from="1678472707141" duration="3758000" />
       <workItem from="1678725102900" duration="117000" />
       <workItem from="1678903076335" duration="4884000" />
-      <workItem from="1679077097266" duration="4045000" />
+      <workItem from="1679077097266" duration="4058000" />
+      <workItem from="1680111557678" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678908680973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="insertion sort">
+      <created>1679081944577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679081944577</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +188,8 @@
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion dhe ushtrime" />
     <MESSAGE value="bubble and selection sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble and selection sort" />
+    <MESSAGE value="insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
