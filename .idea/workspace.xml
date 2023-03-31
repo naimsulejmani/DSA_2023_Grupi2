@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="insertion sort">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adts/ProceduralAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adts/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adts/TransactionTest.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="adts">
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,28 +39,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TransactionTest">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="elementary_sorts.BubbleSort" />
-      <module name="DSA_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="elementary_sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedListTest">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="elementary_sorts.InsertionSort" />
       <module name="DSA_2023_Grupi_2" />
@@ -74,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProceduralAbstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adts.ProceduralAbstraction" />
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.LinkedListTest" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adts.*" />
+          <option name="PATTERN" value="linked_lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="elementary_sorts.SelectionSort" />
+    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.NodeTest" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elementary_sorts.*" />
+          <option name="PATTERN" value="linked_lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProceduralAbstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adts.ProceduralAbstraction" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListTest" />
+        <item itemvalue="Application.NodeTest" />
         <item itemvalue="Application.TransactionTest" />
         <item itemvalue="Application.ProceduralAbstraction" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +142,8 @@
       <workItem from="1678725102900" duration="117000" />
       <workItem from="1678903076335" duration="4884000" />
       <workItem from="1679077097266" duration="4058000" />
-      <workItem from="1680111557678" duration="3219000" />
+      <workItem from="1680111557678" duration="3516000" />
+      <workItem from="1680284277158" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679081944577</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adts">
+      <created>1680116113201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680116113201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +199,8 @@
     <MESSAGE value="Recursion dhe ushtrime" />
     <MESSAGE value="bubble and selection sort" />
     <MESSAGE value="insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
+    <MESSAGE value="adts" />
+    <option name="LAST_COMMIT_MESSAGE" value="adts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
