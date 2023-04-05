@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="linked list part 1a">
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="single linked list">
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DoublyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListTest">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="elementary_sorts.InsertionSort" />
+  <component name="RunManager" selected="Application.DoublyTest">
+    <configuration name="DoublyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.doubly.DoublyTest" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="elementary_sorts.*" />
+          <option name="PATTERN" value="linked_lists.doubly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoublyTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.NodeTest" />
         <item itemvalue="Application.TransactionTest" />
         <item itemvalue="Application.ProceduralAbstraction" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1680284277158" duration="2943000" />
       <workItem from="1680534727030" duration="14000" />
       <workItem from="1680706882952" duration="7000" />
-      <workItem from="1680712970244" duration="4485000" />
+      <workItem from="1680712970244" duration="6095000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680717196620</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="single linked list">
+      <created>1680718983562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680718983562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +237,8 @@
     <MESSAGE value="linked list" />
     <MESSAGE value="linked list part 1" />
     <MESSAGE value="linked list part 1a" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list part 1a" />
+    <MESSAGE value="single linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="single linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
