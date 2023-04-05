@@ -12,6 +12,8 @@ public class LinkedListTest {
         System.out.println(lista.isEmpty());
         lista.print();
         System.out.println(lista.isEmpty());
+        lista.addAfterIndex(1, 25);
+        lista.addAfterIndex(1, 20);
         System.out.println("-----------------------------------");
         lista.removeFirst();
         System.out.println(Arrays.toString(lista.toArray()));

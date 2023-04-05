@@ -79,7 +79,18 @@ public class LinkedList {
     }
 
     public void addAfterIndex(int index, int data) {
-
+        Node newNode = new Node(data);
+        if (isEmpty() && index == 0) {
+            head = newNode;
+            size++;
+        } else {
+            Node prevNode = findByIndex(index);
+            if (prevNode != null) {
+                newNode.setNext(prevNode.getNext());
+                prevNode.setNext(newNode);
+                size++;
+            }
+        }
     }
 
     public void addBeforeIndex(int index, int data) {

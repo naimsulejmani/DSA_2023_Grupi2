@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="linked list">
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="linked list part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" afterDir="false" />
@@ -148,7 +148,7 @@
       <workItem from="1680284277158" duration="2943000" />
       <workItem from="1680534727030" duration="14000" />
       <workItem from="1680706882952" duration="7000" />
-      <workItem from="1680712970244" duration="1425000" />
+      <workItem from="1680712970244" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680288813492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="linked list part 1">
+      <created>1680714531406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680714531406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +220,8 @@
     <MESSAGE value="insertion sort" />
     <MESSAGE value="adts" />
     <MESSAGE value="linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list" />
+    <MESSAGE value="linked list part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
