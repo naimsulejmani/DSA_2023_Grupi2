@@ -52,7 +52,25 @@ public class LinkedList {
     }
 
     public void addLast(int data) {
+        Node newNode = new Node(data);
+        if (isEmpty()) {
+            head = newNode;
+        } else {
+            // Ideja e Elton Kaqiu ✅
+            //  addAfterIndex(size - 1, data);
 
+            // Ideja e Altin Hysa
+            Node temp = findByIndex(size - 1);
+            temp.setNext(newNode);
+
+// OLD LOGIC IF WE DONT HAVE size instance variable
+//            Node temp = head;
+//            while(temp.getNext()!=null) {
+//                temp = temp.getNext();
+//            }
+//            temp.setNext(newNode);
+        }
+        size++;
     }
 
     public void removeFirst() {
@@ -63,7 +81,14 @@ public class LinkedList {
     }
 
     public void removeLast() {
-
+        if (!isEmpty()) {
+            if (size == 1) {
+                clear();
+                size--;
+            } else {
+                removeByIndex(size - 1);
+            }
+        }
     }
 
     public Node findByIndex(int index) {
@@ -94,11 +119,29 @@ public class LinkedList {
     }
 
     public void addBeforeIndex(int index, int data) {
-
+        Node newNode = new Node(data);
+        if (isEmpty() && index == 1) {
+            head = newNode;
+            size++;
+        } else {
+            addAfterIndex(index - 1, data);
+        }
     }
 
     public void removeByIndex(int index) {
-
+        if (!isEmpty()) {
+            if (index == 0) {
+                removeFirst();
+            } else {
+                Node deletedNode = findByIndex(index);
+                if (deletedNode != null) {
+                    Node prevNode = findByIndex(index - 1);
+                    prevNode.setNext(deletedNode.getNext());
+                    deletedNode.setNext(null);
+                    size--;
+                }
+            }
+        }
     }
 
     public void clear() {

@@ -14,8 +14,11 @@ public class LinkedListTest {
         System.out.println(lista.isEmpty());
         lista.addAfterIndex(1, 25);
         lista.addAfterIndex(1, 20);
+        lista.addLast(1000);
+        lista.removeByIndex(2);
         System.out.println("-----------------------------------");
         lista.removeFirst();
+        lista.removeLast();
         System.out.println(Arrays.toString(lista.toArray()));
 //        System.out.println(lista.findByIndex(0));
 ////        lista.print();
