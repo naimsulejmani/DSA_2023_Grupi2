@@ -1,4 +1,4 @@
-package stack_queues;
+package stacks;
 
 public class StackTest {
     public static void main(String[] args) throws StackOverflowException, StackUnderflowException {

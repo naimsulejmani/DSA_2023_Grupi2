@@ -1,4 +1,4 @@
-package stack_queues;
+package stacks;
 
 public class Element<T> {
     private T data;

@@ -1,4 +1,4 @@
-package stack_queues;
+package stacks;
 
 public class Stack<T> {
     private final int MAX_SIZE;

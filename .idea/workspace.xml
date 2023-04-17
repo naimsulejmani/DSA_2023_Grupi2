@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="linked list finale">
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/StackArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/StackOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_queues/StackUnderflowException.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Stack implementations">
+      <change afterPath="$PROJECT_DIR$/src/queues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/QueueOverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queues/QueueUnderflowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackOverflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackOverflowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackUnderflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackUnderflowException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackTest">
+  <component name="RunManager" selected="Application.QueueTest">
     <configuration name="DoublyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_lists.doubly.DoublyTest" />
       <module name="DSA_2023_Grupi_2" />
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.LinkedListTest" />
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues.QueueTest" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.*" />
+          <option name="PATTERN" value="queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +87,11 @@
       </method>
     </configuration>
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_queues.StackTest" />
+      <option name="MAIN_CLASS_NAME" value="stacks.StackTest" />
       <module name="DSA_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack_queues.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.linked_lists.generics.LinkedListTest" />
         <item itemvalue="Application.linked_lists.generics.NodeTest" />
         <item itemvalue="Application.DoublyTest" />
-        <item itemvalue="Application.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +161,9 @@
       <workItem from="1681313260027" duration="647000" />
       <workItem from="1681313926070" duration="3401000" />
       <workItem from="1681318795560" duration="14000" />
+      <workItem from="1681481068469" duration="24000" />
+      <workItem from="1681484838576" duration="21000" />
+      <workItem from="1681491464535" duration="3899000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -242,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680893206802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Stack implementations">
+      <created>1681481081971</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481081971</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +275,8 @@
     <MESSAGE value="single linked list" />
     <MESSAGE value="doubly linked list" />
     <MESSAGE value="linked list finale" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list finale" />
+    <MESSAGE value="Stack implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack implementations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -292,7 +307,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stack_queues/StackTest.java</url>
+          <url>file://$PROJECT_DIR$/src/stacks/StackTest.java</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

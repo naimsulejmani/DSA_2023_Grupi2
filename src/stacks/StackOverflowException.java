@@ -1,4 +1,4 @@
-package stack_queues;
+package stacks;
 
 public class StackOverflowException extends Exception {
     public StackOverflowException() {
