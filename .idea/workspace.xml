@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Stack implementations">
-      <change afterPath="$PROJECT_DIR$/src/queues/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/QueueOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues/QueueUnderflowException.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Queue Implementations">
+      <change afterPath="$PROJECT_DIR$/src/trees/TreeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/bst/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/bst/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackOverflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackOverflowException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack_queues/StackUnderflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/StackUnderflowException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +157,9 @@
       <workItem from="1681481068469" duration="24000" />
       <workItem from="1681484838576" duration="21000" />
       <workItem from="1681491464535" duration="3899000" />
+      <workItem from="1681744093831" duration="23000" />
+      <workItem from="1682529128584" duration="1752000" />
+      <workItem from="1682608811966" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -256,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681481081971</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Queue Implementations">
+      <created>1681744105938</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681744105938</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +279,8 @@
     <MESSAGE value="doubly linked list" />
     <MESSAGE value="linked list finale" />
     <MESSAGE value="Stack implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack implementations" />
+    <MESSAGE value="Queue Implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue Implementations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
