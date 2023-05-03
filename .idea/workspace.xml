@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Binary Search Tree">
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Binary searhc Tree">
+      <change afterPath="$PROJECT_DIR$/src/hashtables/CounterTerrorist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtables/TestHashCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/TreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/TreeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/bst/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/bst/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TreeMain">
+  <component name="RunManager" selected="Application.TestHashCode">
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queues.QueueTest" />
       <module name="DSA_2023_Grupi_2" />
@@ -71,6 +71,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtables.TestHashCode" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_lists.generics.NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.generics.NodeTest" />
-      <module name="DSA_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked_lists.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHashCode" />
         <item itemvalue="Application.TreeMain" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.linked_lists.generics.LinkedListTest" />
-        <item itemvalue="Application.linked_lists.generics.NodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,8 @@
       <workItem from="1681744093831" duration="23000" />
       <workItem from="1682529128584" duration="1752000" />
       <workItem from="1682608811966" duration="15000" />
-      <workItem from="1682702028394" duration="4513000" />
+      <workItem from="1682702028394" duration="4531000" />
+      <workItem from="1683134361749" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682702298604</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Binary searhc Tree">
+      <created>1682706673752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682706673752</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +296,8 @@
     <MESSAGE value="Stack implementations" />
     <MESSAGE value="Queue Implementations" />
     <MESSAGE value="Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree" />
+    <MESSAGE value="Binary searhc Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary searhc Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
