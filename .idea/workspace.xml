@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Merge Sort">
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/SortableTest.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Shell &amp; Quick Sort">
+      <change afterPath="$PROJECT_DIR$/src/graphs/AdjacencyListGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/AdjacencyMatrixGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/GraphType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/TestAdjMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,20 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QuickSortTest">
-    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtables.HashTableTest" />
-      <module name="DSA_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashtables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestAdjMatrix">
     <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="advanced_sorts.HeapSortTest" />
       <module name="DSA_2023_Grupi_2" />
@@ -122,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAdjMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.TestAdjMatrix" />
+      <module name="DSA_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAdjMatrix" />
         <item itemvalue="Application.QuickSortTest" />
         <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.HeapSortTest" />
-        <item itemvalue="Application.HashTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,9 @@
       <workItem from="1683738528663" duration="2201000" />
       <workItem from="1683817597095" duration="87000" />
       <workItem from="1683911240526" duration="2982000" />
-      <workItem from="1684516907443" duration="2549000" />
+      <workItem from="1684516907443" duration="3371000" />
+      <workItem from="1685029375476" duration="319000" />
+      <workItem from="1685121266203" duration="4117000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -314,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683916548189</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Shell &amp; Quick Sort">
+      <created>1684521269968</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684521269968</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +349,8 @@
     <MESSAGE value="HashTable" />
     <MESSAGE value="Heap Sort" />
     <MESSAGE value="Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort" />
+    <MESSAGE value="Shell &amp; Quick Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shell &amp; Quick Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
