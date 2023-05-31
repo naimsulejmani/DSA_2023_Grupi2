@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Shell &amp; Quick Sort">
-      <change afterPath="$PROJECT_DIR$/src/graphs/AdjacencyListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/AdjacencyMatrixGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/GraphType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/TestAdjMatrix.java" afterDir="false" />
+    <list default="true" id="e076b778-aa50-4896-8359-52833b09eada" name="Changes" comment="Graphs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/TestAdjMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/TestAdjMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +171,8 @@
       <workItem from="1683911240526" duration="2982000" />
       <workItem from="1684516907443" duration="3371000" />
       <workItem from="1685029375476" duration="319000" />
-      <workItem from="1685121266203" duration="4117000" />
+      <workItem from="1685121266203" duration="4487000" />
+      <workItem from="1685552661525" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="Kerkimet">
       <created>1678222636651</created>
@@ -323,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684521269968</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Graphs">
+      <created>1685125821779</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685125821779</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +355,8 @@
     <MESSAGE value="Heap Sort" />
     <MESSAGE value="Merge Sort" />
     <MESSAGE value="Shell &amp; Quick Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shell &amp; Quick Sort" />
+    <MESSAGE value="Graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
